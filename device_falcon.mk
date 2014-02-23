@@ -34,6 +34,9 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gpecheck.sh:system/bin/gpecheck.sh
 
+# FM Radio
+PRODUCT_BOOT_JARS += qcom.fmradio
+
 # CDMA, GSM/WCDMA
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.default_network=5 \

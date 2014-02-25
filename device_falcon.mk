@@ -30,10 +30,6 @@ PRODUCT_LOCALES += xhdpi
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-# GPE device check script
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/gpecheck.sh:system/bin/gpecheck.sh
-
 # FM Radio
 PRODUCT_BOOT_JARS += qcom.fmradio
 

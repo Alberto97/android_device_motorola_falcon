@@ -33,13 +33,5 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 # FM Radio
 PRODUCT_BOOT_JARS += qcom.fmradio
 
-# CDMA, GSM/WCDMA
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.telephony.default_network=5 \
-	telephony.lteOnCdmaDevice=1 \
-	persist.radio.mode_pref_nv10=1 \
-	persist.radio.no_wait_for_card=1 \
-	persist.radio.dfr_mode_set=1
-
 $(call inherit-product, device/motorola/msm8226-common/keylayout/keylayout.mk)
 $(call inherit-product, vendor/motorola/falcon/falcon-vendor.mk)

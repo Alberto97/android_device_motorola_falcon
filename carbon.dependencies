@@ -1,26 +1,38 @@
 [
   {
-    "repository": "android_device_qcom_common",
+    "remote": "gh"
+    "revision": "cm-11.0"
+    "repository": "CyanogenMod/android_device_qcom_common",
     "target_path": "device/qcom/common"
   },
   {
-    "repository": "android_device_motorola_qcom-common",
+    "remote": "gh"
+    "revision": "cm-11.0"
+    "repository": "CyanogenMod/android_device_motorola_qcom-common",
     "target_path": "device/motorola/qcom-common"
   },
   {
-    "repository": "android_device_motorola_msm8226-common",
+    "remote": "gh"
+    "revision": "cm-11.0"
+    "repository": "CyanogenMod/android_device_motorola_msm8226-common",
     "target_path": "device/motorola/msm8226-common"
   },
   {
-    "repository": "android_kernel_motorola_msm8226",
+    "remote": "gh"
+    "revision": "cm-11.0"
+    "repository": "CyanogenMod/android_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226"
   },
   {
-    "repository": "android_hardware_qcom_display-caf-new",
+    "remote": "gh"
+    "revision": "cm-11.0"
+    "repository": "CyanogenMod/android_hardware_qcom_display-caf-new",
     "target_path": "hardware/qcom/display-caf-new"
   },
   {
-    "repository": "android_hardware_qcom_media-caf-new",
+    "remote": "gh"
+    "revision": "cm-11.0"
+    "repository": "CyanogenMod/android_hardware_qcom_media-caf-new",
     "target_path": "hardware/qcom/media-caf-new"
   }
 ]

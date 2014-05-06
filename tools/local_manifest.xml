@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Put this to .repo/local_manifests/local_manifest.xml -->
+<manifest>
+  <project path="device/motorola/falcon" name="Alberto97/android_device_motorola_falcon" remote="gh" revision="carbon-4.4" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="platform/frameworks/rs" />
+  <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" remote="cm" revision="cm-11.0" />
+</manifest>

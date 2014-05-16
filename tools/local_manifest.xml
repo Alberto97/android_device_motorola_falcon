@@ -20,6 +20,8 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="omnirom/android_packages_apps_DSPManager" />
   <remove-project name="platform/frameworks/rs" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="gh" revision="cm-11.0" />
 </manifest>

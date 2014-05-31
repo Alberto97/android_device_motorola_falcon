@@ -35,3 +35,9 @@ PRODUCT_BOOT_JARS += qcom.fmradio
 
 $(call inherit-product, device/motorola/msm8226-common/keylayout/keylayout.mk)
 $(call inherit-product, vendor/motorola/falcon/falcon-vendor.mk)
+
+# Charge Mode
+PRODUCT_COPY_FILES += \
+	device/motorola/falcon/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
+	device/motorola/falcon/proprietary/bin/moto_com.sh:system/bin/moto_com.sh \
+	device/motorola/falcon/proprietary/bin/mount_ext4.sh:system/bin/mount_ext4.sh \

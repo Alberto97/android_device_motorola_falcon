@@ -1,8 +1,8 @@
 [
   {
     "remote": "gh",
-    "revision": "kitkat",
-    "repository": "Alberto97/android_vendor_motorola",
+    "revision": "cm-11.0",
+    "repository": "TheMuppets/android_vendor_motorola",
     "target_path": "vendor/motorola"
   },
   {

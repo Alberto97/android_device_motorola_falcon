@@ -3,3 +3,7 @@
 xt1033/lib/hw/audio.primary.msm8226.so
 xt1033/lib/libril.so
 xt1033/vendor/lib/libril-qc-qmi-1.so
+
+proprietary/bin/charge_only_mode
+proprietary/bin/moto_com.sh
+proprietary/bin/mount_ext4.sh

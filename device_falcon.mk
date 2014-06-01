@@ -39,5 +39,7 @@ $(call inherit-product, vendor/motorola/falcon/falcon-vendor.mk)
 # Charge Mode
 PRODUCT_COPY_FILES += \
 	device/motorola/falcon/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-	device/motorola/falcon/proprietary/bin/moto_com.sh:system/bin/moto_com.sh \
-	device/motorola/falcon/proprietary/bin/mount_ext4.sh:system/bin/mount_ext4.sh \
+	device/motorola/falcon/proprietary/bin/mount_ext4.sh:system/bin/mount_ext4.sh
+
+# Linaro Toolchains
+ARM_EABI_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.9/bin

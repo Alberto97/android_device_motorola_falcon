@@ -1,0 +1,20 @@
+--- a/drivers/cpufreq/cpufreq_interactive.c
++++ b/drivers/cpufreq/cpufreq_interactive.c
+@@ -813,7 +813,7 @@
+ 		ret += sprintf(buf + ret, "%u%s", target_loads[i],
+ 			       i & 0x1 ? ":" : " ");
+ 
+-	ret += sprintf(buf + --ret, "\n");
++	sprintf(buf + ret - 1, "\n");
+ 	spin_unlock_irqrestore(&target_loads_lock, flags);
+ 	return ret;
+ }
+@@ -856,7 +856,7 @@
+ 		ret += sprintf(buf + ret, "%u%s", above_hispeed_delay[i],
+ 			       i & 0x1 ? ":" : " ");
+ 
+-	ret += sprintf(buf + --ret, "\n");
++	sprintf(buf + ret - 1, "\n");
+ 	spin_unlock_irqrestore(&above_hispeed_delay_lock, flags);
+ 	return ret;
+ }

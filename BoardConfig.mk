@@ -45,3 +45,6 @@ TW_IGNORE_MAJOR_AXIS_0 := true
 
 # userdata 8GB
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 8589934592
+
+# Linaro Toolchains
+ARM_EABI_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.9/bin

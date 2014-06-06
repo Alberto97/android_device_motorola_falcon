@@ -37,6 +37,4 @@ $(call inherit-product, device/motorola/msm8226-common/keylayout/keylayout.mk)
 $(call inherit-product, vendor/motorola/falcon/falcon-vendor.mk)
 
 # Charge Mode
-PRODUCT_COPY_FILES += \
-	device/motorola/falcon/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-	device/motorola/falcon/proprietary/bin/mount_ext4.sh:system/bin/mount_ext4.sh
+PRODUCT_COPY_FILES += device/motorola/falcon/charge_only_mode:system/bin/charge_only_mode 

@@ -1,6 +1,16 @@
+commit 99f5797ba52caa57f4cfca89ac7ccf0e71b12454
+Author: Alberto97 <albertop2197@gmail.com>
+Date:   Fri Jun 6 21:34:29 2014 +0200
+
+    Fix Linaro 4.9.1 Build (Interactive)
+    
+    Change-Id: Ie6f9f8c5feeb1d1b1eee689ab67a0b70c85bf75d
+
+diff --git a/drivers/cpufreq/cpufreq_interactive.c b/drivers/cpufreq/cpufreq_interactive.c
+index 736fd4e..bb7edfc 100644
 --- a/drivers/cpufreq/cpufreq_interactive.c
 +++ b/drivers/cpufreq/cpufreq_interactive.c
-@@ -813,7 +813,7 @@
+@@ -810,7 +810,7 @@ static ssize_t show_target_loads(
  		ret += sprintf(buf + ret, "%u%s", target_loads[i],
  			       i & 0x1 ? ":" : " ");
  
@@ -9,7 +19,7 @@
  	spin_unlock_irqrestore(&target_loads_lock, flags);
  	return ret;
  }
-@@ -856,7 +856,7 @@
+@@ -853,7 +853,7 @@ static ssize_t show_above_hispeed_delay(
  		ret += sprintf(buf + ret, "%u%s", above_hispeed_delay[i],
  			       i & 0x1 ? ":" : " ");
  

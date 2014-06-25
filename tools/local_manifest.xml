@@ -20,6 +20,8 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="omnirom/android_packages_apps_DSPManager" />
   <project path="packages/apps/DSPManager" name="Alberto97/android_packages_apps_DSPManager" remote="gh" revision="omni" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" groups="qcom_wlan" />
 </manifest>

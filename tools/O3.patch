@@ -1,0 +1,23 @@
+commit eceafd07075a7280b37369e6e219392f87f0879a
+Author: Alberto97 <albertop2197@gmail.com>
+Date:   Tue Jun 24 11:02:57 2014 +0200
+
+    O3 Optimizations
+    
+    Change-Id: Ib2766f666fa77f021d1d49e88639e9955f6b954d
+
+diff --git a/Makefile b/Makefile
+index 6ba3245..3e38eab 100644
+--- a/Makefile
++++ b/Makefile
+@@ -250,8 +250,8 @@ CONFIG_SHELL := $(shell if [ -x "$$BASH" ]; then echo $$BASH; \
+ 
+ HOSTCC       = gcc
+ HOSTCXX      = g++
+-HOSTCFLAGS   = -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer
+-HOSTCXXFLAGS = -O2
++HOSTCFLAGS   = -Wall -Wmissing-prototypes -Wstrict-prototypes -O3 -fno-tree-vectorize -fomit-frame-pointer
++HOSTCXXFLAGS = -O3
+ 
+ # Decide whether to build built-in, modular, or both.
+ # Normally, just do built-in.

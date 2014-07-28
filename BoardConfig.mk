@@ -42,3 +42,11 @@ TW_IGNORE_MAJOR_AXIS_0 := true
 
 # userdata 8GB
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 8589934592
+
+# MultiROM config. MultiROM also uses parts of TWRP config
+MR_INPUT_TYPE := type_b
+MR_INIT_DEVICES := device/motorola/falcon/mr_init_devices.c
+MR_DPI := xhdpi
+MR_FSTAB := device/motorola/msm8226-common/rootdir/etc/twrp.fstab
+MR_KEXEC_MEM_MIN := 0x08250000
+MR_KEXEC_DTB := true

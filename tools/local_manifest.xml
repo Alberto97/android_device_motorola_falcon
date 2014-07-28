@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Put this to .repo/local_manifests/local_manifest.xml -->
+<manifest>
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="Tasssadar/Team-Win-Recovery-Project" remote="gh" />
+  <project path="system/extras/multirom" name="Tasssadar/multirom" remote="gh" />
+  <project path="system/extras/libbootimg" name="Tasssadar/libbootimg" remote="gh" />
+</manifest>

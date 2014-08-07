@@ -30,9 +30,9 @@
     "target_path": "device/motorola/msm8226-common"
   },
   {
-    "remote": "cm",
+    "remote": "gh",
     "revision": "cm-11.0",
-    "repository": "CyanogenMod/android_kernel_motorola_msm8226",
+    "repository": "Alberto97/android_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226"
   },
   {

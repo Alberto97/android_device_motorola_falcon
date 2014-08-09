@@ -1,0 +1,3 @@
+add_lunch_combo mahdi_falcon-user
+add_lunch_combo mahdi_falcon-userdebug
+add_lunch_combo mahdi_falcon-eng

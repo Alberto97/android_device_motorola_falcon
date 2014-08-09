@@ -25,12 +25,25 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from xt1034 device
+
+# Inherit from falcon device
 $(call inherit-product, device/motorola/falcon/device_falcon.mk)
 
-## Device identifier. This must come after all inclusions
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/mahdi/configs/gsm.mk)
+
+# Inherit some common stuff.
+$(call inherit-product, vendor/mahdi/configs/common.mk)
+$(call inherit-product, vendor/mahdi/configs/common_full_phone.mk)
+
+# Release name
+PRODUCT_RELEASE_NAME := MOTO G
+PRODUCT_NAME := mahdi_falcon
 PRODUCT_DEVICE := falcon
-PRODUCT_NAME := full_falcon
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := falcon
 PRODUCT_MANUFACTURER := motorola
+
+# Copy device specific prebuilt files.
+PRODUCT_COPY_FILES += \
+    vendor/mahdi/prebuilt/bootanimations/BOOTANIMATION-1280x768.zip:system/media/bootanimation.zip

@@ -37,4 +37,5 @@ PRODUCT_MANUFACTURER := motorola
 
 # Copy device specific prebuilt files.
 PRODUCT_COPY_FILES += \
+    device/motorola/falcon/configs/QuickBoot.apk:system/app/QuickBoot.apk \
     vendor/mahdi/prebuilt/bootanimations/BOOTANIMATION-1280x768.zip:system/media/bootanimation.zip

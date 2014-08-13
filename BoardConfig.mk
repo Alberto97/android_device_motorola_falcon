@@ -62,5 +62,5 @@ MR_INPUT_TYPE := type_b
 MR_INIT_DEVICES := device/motorola/falcon/mr_init_devices.c
 MR_DPI := xhdpi
 MR_FSTAB := device/motorola/msm8226-common/rootdir/etc/twrp.fstab
-MR_KEXEC_MEM_MIN := 0x08250000
+MR_KEXEC_MEM_MIN := 0x05000000
 MR_KEXEC_DTB := true

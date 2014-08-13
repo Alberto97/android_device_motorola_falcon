@@ -1,14 +1,14 @@
 # system.prop for falcon
 
 # audio
-audio.offload.24bit.enable=false
+audio.offload.24bit.enable=true
 audio.offload.buffer.size.kb=32
-audio.offload.gapless.enabled=false
-audio.offload.multiple.enabled=false
-audio.offload.pcm.enable=false
+audio.offload.gapless.enabled=true
+audio.offload.multiple.enabled=true
+audio.offload.pcm.enable=true
 
-av.offload.enable=false
-av.streaming.offload.enable=false
+av.offload.enable=true
+av.streaming.offload.enable=true
 
 mm.enable.smoothstreaming=true
 

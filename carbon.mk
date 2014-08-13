@@ -19,3 +19,7 @@ PRODUCT_NAME := carbon_falcon
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := falcon
 PRODUCT_MANUFACTURER := motorola
+
+# Copy device specific prebuilt files.
+PRODUCT_COPY_FILES += \
+    device/motorola/falcon/prebuilts/QuickBoot.apk:system/app/QuickBoot.apk

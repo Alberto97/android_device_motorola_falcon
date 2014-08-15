@@ -22,4 +22,5 @@ PRODUCT_MANUFACTURER := motorola
 
 # Copy device specific prebuilt files.
 PRODUCT_COPY_FILES += \
-    device/motorola/falcon/prebuilts/QuickBoot.apk:system/app/QuickBoot.apk
+    device/motorola/falcon/prebuilts/QuickBoot.apk:system/app/QuickBoot.apk \
+    device/motorola/falcon/configs/audio.primary.msm8226.so:system/lib/hw/audio.primary.msm8226.so

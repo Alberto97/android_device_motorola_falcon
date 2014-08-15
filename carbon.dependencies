@@ -12,8 +12,8 @@
     "revision": "kk"
   },
   {
-    "remote": "cm",
-    "repository": "CyanogenMod/android_kernel_motorola_msm8226",
+    "remote": "gh",
+    "repository": "Alberto97/android_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
     "revision": "cm-11.0"
   },

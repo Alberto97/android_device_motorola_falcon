@@ -29,5 +29,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
+# DSP Prebuilt
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/DSP/DSPManager.apk:system/app/DSPManager.apk \
+    $(LOCAL_PATH)/prebuilts/DSP/audio_effects.conf:system/etc/audio_effects.conf \
+    $(LOCAL_PATH)/prebuilts/DSP/libcyanogen-dsp.so:system/lib/soundfx/libcyanogen-dsp.so
+
 # Inherit from msm8226-common
 $(call inherit-product, device/motorola/msm8226-common/msm8226.mk)

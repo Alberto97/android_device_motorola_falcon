@@ -1,10 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
-export VENDOR=motorola
+set -e
+
 export DEVICE=falcon
-# Comment these out if there is no common device tree for this device
-export COMMON_DEVICE=msm8226-common
-export BOARD_VENDOR=motorola-qcom
-export TARGET_BOARD_PLATFORM=msm8226
-
-../$COMMON_DEVICE/setup-makefiles.sh $@
+export VENDOR=motorola
+./../../$VENDOR/msm8226-common/setup-makefiles.sh $@

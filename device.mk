@@ -153,6 +153,17 @@ PRODUCT_PACKAGES += \
     aplogd \
     charge_only_mode
 
+# Mahdi
+PRODUCT_PACKAGES += \
+    BluetoothExt
+
+# Stagefright FFMPEG plugin
+PRODUCT_PACKAGES += \
+    libstagefright_soft_ffmpegadec \
+    libstagefright_soft_ffmpegvdec \
+    libFFmpegExtractor \
+    libnamparser
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \

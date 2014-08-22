@@ -8,12 +8,6 @@
   {
     "revision":    "cm-11.0",
     "remote":      "github",
-    "repository":  "CyanogenMod/android_device_qcom_common",
-    "target_path": "device/qcom/common"
-  },
-  {
-    "revision":    "cm-11.0",
-    "remote":      "github",
     "repository":  "Alberto97/android_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226"
   },
@@ -24,15 +18,21 @@
     "target_path": "hardware/qcom/fm"
   },
   {
-    "revision":    "cm-11.0",
+    "revision":    "kk-4.4.3",
     "remote":      "github",
-    "repository":  "CyanogenMod/android_hardware_qcom_display-caf-new",
+    "repository":  "Mahdi-Rom/android_device_qcom_common",
+    "target_path": "device/qcom/common"
+  },
+  {
+    "revision":    "kk-4.4.3",
+    "remote":      "github",
+    "repository":  "Mahdi-Rom/android_hardware_qcom_display-caf-new",
     "target_path": "hardware/qcom/display-caf-new"
   },
   {
-    "revision":    "cm-11.0",
+    "revision":    "kk-4.4.3",
     "remote":      "github",
-    "repository": "CyanogenMod/android_hardware_qcom_media-caf-new",
+    "repository":  "Mahdi-Rom/android_hardware_qcom_media-caf-new",
     "target_path": "hardware/qcom/media-caf-new"
   }
 ]

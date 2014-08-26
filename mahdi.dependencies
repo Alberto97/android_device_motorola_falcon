@@ -6,7 +6,7 @@
     "target_path": "vendor/motorola"
   },
   {
-    "revision":    "cm-11.0",
+    "revision":    "kk4.4",
     "remote":      "github",
     "repository":  "Alberto97/android_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226"

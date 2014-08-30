@@ -3,6 +3,7 @@
 <manifest>
   <project path="device/motorola/falcon" name="Alberto97/android_device_motorola_falcon" remote="github" revision="mahdi-4.4" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/TouchControl" name="Mahdi-Rom/android_packages_apps_TouchControl" remote="github" revision="kk-4.4.3" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />

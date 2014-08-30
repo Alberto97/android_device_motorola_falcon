@@ -157,7 +157,8 @@ PRODUCT_PACKAGES += \
 
 # Mahdi
 PRODUCT_PACKAGES += \
-    BluetoothExt
+    BluetoothExt \
+    TouchControl
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \

@@ -1,4 +1,2 @@
-Universal device configuration for the Moto G (falcon)
+AOSP KitKat 4.4.4 for Moto G (“Falcon”)
 ===============================
-
-Copyright 2014 - The CyanogenMod Project

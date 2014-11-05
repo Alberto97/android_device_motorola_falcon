@@ -1,2 +1,2 @@
-AOSP KitKat 4.4.4 for Moto G (“Falcon”)
+AOSP Lollipop 5.0 for Moto G (“Falcon”)
 ===============================

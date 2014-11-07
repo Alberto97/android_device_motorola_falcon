@@ -1,5 +1,5 @@
-allow media_app cache_backup_file:dir getattr;
-allow media_app rootfs:file { read getattr open };
+allow untrusted_app cache_backup_file:dir getattr;
+allow untrusted_app rootfs:file { read getattr open };
 allow platform_app pds_file:dir getattr;
 allow platform_app persist_file:dir getattr;
 allow platform_app rootfs:file getattr;

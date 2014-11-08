@@ -16,8 +16,6 @@ allow rmt self:capability { setuid setgid dac_override };
 allow rmt self:socket { create ioctl bind setopt read write };
 
 allow rmt cgroup:dir { create add_name };
-# XXX do we need write access?
-# allow rmt kmem_device:chr_file rw_file_perms;
 
 # Allow shared memory logging access
 allow rmt shared_log_device:chr_file rw_file_perms;
@@ -28,4 +26,5 @@ allow rmt sysfs:dir rw_dir_perms;
 
 allow rmt radio_efs_file:file { read open };
 allow rmt sysfs_wake_lock:file { append open };
-# allow rmt device:chr_file { read write open };
+allow rmt modem_block_device:chr_file rw_file_perms;
+allow rmt efs_block_device:chr_file rw_file_perms;

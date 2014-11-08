@@ -38,7 +38,16 @@ allow init_shell pds_file:file { read open };
 allow init_shell pds_file:dir getattr;
 allow pds_file rootfs:filesystem associate;
 
-# allow init_shell block_device:blk_file { read open };
+
+allow init_shell diagnostic_device:blk_file r_file_perms;
+allow init_shell kgsl_device:blk_file r_file_perms;
+allow init_shell mpdecision_device:blk_file r_file_perms;
+allow init_shell shared_log_device:blk_file r_file_perms;
+allow init_shell power_control_device:blk_file r_file_perms;
+allow init_shell efs_block_device:blk_file r_file_perms;
+allow init_shell bluetooth_device:blk_file r_file_perms;
+allow init_shell shared_memory_device:blk_file r_file_perms;
+allow init_shell modem_block_device:blk_file r_file_perms;
 allow init_shell device:chr_file { getattr setattr write open };
 allow init_shell device:dir { write read open add_name };
 allow init_shell device:lnk_file create;

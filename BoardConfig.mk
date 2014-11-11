@@ -91,6 +91,9 @@ TARGET_UNIFIED_DEVICE := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
+# Logging
+TARGET_USES_LOGD := false
+
 # Motorola
 TARGET_USES_MOTOROLA_LOG := true
 

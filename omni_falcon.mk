@@ -15,15 +15,21 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from falcon device
 $(call inherit-product, device/motorola/falcon/device.mk)
 
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
+
+# Inherit APNs list
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_RELEASE_NAME := MOTO G
 PRODUCT_DEVICE := falcon
-PRODUCT_NAME := aosp_falcon
+PRODUCT_NAME := omni_falcon
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := falcon
 PRODUCT_MANUFACTURER := motorola

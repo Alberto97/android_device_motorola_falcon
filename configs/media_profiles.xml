@@ -121,31 +121,18 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
+    <EncoderProfile quality="qvga" fileFormat="3gp" duration="30">
       <Video codec="h264"
-             bitRate="512000"
+             bitRate="128000"
              width="320"
              height="240"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-    <EncoderProfile quality="fwvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="2000000"
-             width="864"
-             height="480"
-             frameRate="30" />
+             frameRate="15" />
 
       <Audio codec="amrnb"
              bitRate="12200"
              sampleRate="8000"
              channels="1" />
-     </EncoderProfile>
+    </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
       <Video codec="h264"
@@ -279,31 +266,18 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
+    <EncoderProfile quality="qvga" fileFormat="3gp" duration="30">
       <Video codec="h264"
-             bitRate="512000"
+             bitRate="128000"
              width="320"
              height="240"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-    <EncoderProfile quality="fwvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="2000000"
-             width="864"
-             height="480"
-             frameRate="30" />
+             frameRate="15" />
 
       <Audio codec="amrnb"
              bitRate="12200"
              sampleRate="8000"
              channels="1" />
-     </EncoderProfile>
+    </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
       <Video codec="h264"

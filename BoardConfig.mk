@@ -75,9 +75,6 @@ BLUETOOTH_HCI_USE_MCT := true
 # Camera
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# CMHW
-BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw/
-
 # Display
 BOARD_EGL_CFG := $(LOCAL_PATH)/configs/egl.cfg
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
@@ -126,10 +123,14 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_RECOVERY_SWIPE := true
 BOARD_SUPPRESS_EMMC_WIPE := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/gpe-fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+
+#TWRP
+DEVICE_RESOLUTION := 720x1280
+TW_IGNORE_MAJOR_AXIS_0 := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
@@ -169,7 +170,7 @@ BOARD_SEPOLICY_UNION += \
     sensors.te \
     shell.te \
     surfaceflinger.te \
-    system.te \
+    system_server.te \
     tee.te \
     te_macros \
     thermald.te \

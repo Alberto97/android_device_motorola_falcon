@@ -59,6 +59,15 @@ TARGET_SCREEN_WIDTH := 720
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
+# Keymaster
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/configs/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+     $(LOCAL_PATH)/configs/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+     $(LOCAL_PATH)/configs/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+     $(LOCAL_PATH)/configs/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+     $(LOCAL_PATH)/configs/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
+
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \

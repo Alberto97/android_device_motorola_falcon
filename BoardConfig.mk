@@ -204,5 +204,3 @@ WITH_DEXPREOPT_BOOT_IMG_ONLY ?= true
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
-
-MALLOC_IMPL := dlmalloc

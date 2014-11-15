@@ -24,4 +24,3 @@
     for devices where the java drawing of round rects may be slow -->
     <bool name="config_recents_use_hardware_layers">true</bool>
 </resources>
-

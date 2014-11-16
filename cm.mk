@@ -33,7 +33,3 @@ PRODUCT_NAME := cm_falcon
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := falcon
 PRODUCT_MANUFACTURER := motorola
-
-# Copy device specific prebuilt files.
-PRODUCT_COPY_FILES += \
-    device/motorola/falcon/configs/audio.primary.msm8226.so:system/lib/hw/audio.primary.msm8226.so
